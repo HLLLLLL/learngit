@@ -8,7 +8,7 @@ int main()
 {
     int a[100];
     memset(a, 1, sizeof(a));
-    int n = 7;
+    int n = 7;          //假设n=7
     int cnt = 0;
     int left = n;
     for(int i=0; i<n; i=(i+1+1+n)%n-1){
